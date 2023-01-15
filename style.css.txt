@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.8;
+  color: #2F4F4F;
+ }
+html{
+  scroll-behavior: smooth;
+}
+
+nav{
+  position: fixed;
+  background: #004aad;
+  width: 100%;
+  padding: 10px 0;
+}
+nav .menu{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #c5e3ff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color: #c5e3ff;
+  padding: 8px 15px;
+}
+.image{
+  background: url(./img/p1.png);
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.banner{
+  position: absolute;
+  top: 52%;
+  left: 25%;
+  width: 100%;
+  transform: translate(-50%,-50%);
+  padding: 0 20px;
+  text-align: center;
+}
+.banner h1, h2{
+  color: #004aad;
+  font-size: 50px;
+  font-weight: 600;
+}
+.tool{
+  text-align: center;
+  font-size: 50px;
+}
+.tool ul{
+  display: inline-flex;
+}
+.tool ul li{
+  list-style: none;
+  align-items: center;
+}
+.tool ul li a{
+  padding: 20px 35px;
+}
+#profile{
+  width: 100%;
+  padding: 70px 0;
+  background: #E6E6FA;
+}
+.teamprofile{
+  text-align: center;
+  padding-bottom: 70px;
+}
+.teamprofile p{
+  text-align: left;
+  margin: auto;
+  font-size: 15px;
+  z-index: 1;
+  display: inline-block;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.teamprofile h2{
+  font-size: 50px;
+
+}
+.teamprofile h3{
+  font-size: 20px;
+}
+.teamname img{
+  width: 15%;
+  height: 15%;
+  display: inline-block;
+  padding: 5px;
+}
+.profile-row{
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.profile-col{
+  flex-basis: 50%;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px 3px #00968814;
+}
+.contact {
+  width: 100%;
+  padding: 70px 0;
+  background: #c5e3ff;
+}
+.contact h1{
+  text-align: center;
+  font-size: 50px;
+}
+.contact h2{
+  text-align: center;
+  font-size: 30px;
+}
+.contact p{
+  text-align:center;
+  font-size: 35px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#idea {
+  width: 100%;
+  padding: 70px 0;
+  background: #E6E6FA;
+}
+#product{
+  width: 100%;
+  padding: 70px 0;
+  background: #E6E6FA;
+}
+.watch img{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+.web img{
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
